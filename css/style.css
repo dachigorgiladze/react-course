@@ -1,71 +1,113 @@
-* {
+body {
+    background-color: rgb(19, 179, 233);
+    margin: auto;
+}
+h2 {
+    font-size: 15px;
+    line-height: 10px;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+.nav_wrapper {
+    display: flex;
+    Align-items:center;
+    Justify-content: center;
 }
 
 
-.box-1 {
-    background-color: red;
-    color: white;
-    border: solid 1px black;
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
-    padding: 10px 0 0 20px;
 
-}
-
-.sections {
-    margin-left: 30px;
-    height: 150px;
-    width: 800px;
-}
-
-.headings {
-    margin: 0 0 10px 0;
-}
-
-.h1-headings {
-    margin: 0 0 10px 0;
-}
-
-
-.main-buttons {
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 50px;
+    top: 0;
     background-color: black;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.main-buttons:hover {
-    background-color: red;
-}
-
-.article-sections {
-
-    margin: 70px 0 0 30px;
+    border-radius: 0px 0px 20px 20px;
+    position: sticky;
 
 }
 
-nav {
-    width: 300px;
+.navigation_list {
+    list-style: none;
+    color: white;
+
+}
+
+.navigation_list .list_items {
+    display: inline-block;
+    margin: auto;
+    margin-left: 20px;
+}
+
+
+.primary_logo {
+    width: 30px;
     height: 30px;
-    background-color: black;
-    border-radius: 20px;
-    margin: 20px 0 0 400px;
+    margin-right: 20px;
+    
 }
 
-.nav-item {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.navigaion_logo {
+
+    display: flex;
+    Align-items:center;
+    Justify-content: center;
     
+}
+
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 20px;
+    background: rgb(199, 9, 183);
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-radius: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+
+.main_section {
+    background-color: rgb(236, 171, 8);
+    width: 60%;
+    height: 1400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 12px 24px 12px 12px;
+    
+}
+
+
+.artcles {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 20px;
+
+}
+
+.article_title {
+    border-bottom: 1px black solid;
+    padding: 12px 0;
+}
+}
+
+.article_text {
+
 }
